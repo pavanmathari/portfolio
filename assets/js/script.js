@@ -41,7 +41,7 @@ $(document).ready(function () {
     
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("y3uVObpo0LxLWpA2u");
+        emailjs.init("3yeOShxuERg0YDr32");
 
         // Capture form data before sending the form
         var userName = this.user_name.value;
@@ -49,7 +49,7 @@ $(document).ready(function () {
         var userContact = this.contact_number.value;
         var userMessage = this.message.value;
 
-        emailjs.send('service_z6ovmnu', 'template_9otfujy', {
+        emailjs.send('service_8l86wfa', 'template_o2po4r2', {
             from_name: userName,
             email_id: userEmail,
             contact : userContact,
