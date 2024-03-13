@@ -249,7 +249,7 @@ async function fetchData(type = "skills") {
               }
             },{
                 "name": "Twitter ETL Pipeline",
-                "desc": "This project demonstrates the extraction of data from Twitter using the Twitter API, processing the data with Apache Airflow, and storing the results in an AWS S3 bucket. The pipeline is deployed on an AWS EC2 Ubuntu instance.",
+                "desc": "This project demonstrates the extraction of data from Twitter using the Twitter API, processing the data with Apache Airflow, and storing the results in an AWS S3 bucket.",
                 "image": "Twitter Airflow",
                 "category": "visual",
                 "links": {
